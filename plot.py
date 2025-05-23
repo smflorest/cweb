@@ -27,7 +27,7 @@ buffer.seek(0)
 st.download_button(
     label="Descargar imagen",
     data=buffer,
-    file_name=f"diagrama_ramachandran_{pdb_id}.png",
+    file_name=f"bob_{pdb_id}.png",
     mime="image/png"
 )
 
